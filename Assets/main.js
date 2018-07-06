@@ -1,3 +1,14 @@
+var myVar = setInterval(function() {
+    myTimer()
+  }, 1000);
+  var d = 0;
+  
+  function myTimer() {
+    document.getElementById("timer").innerHTML = d++;
+  }
+
+
+
 function onSubmit(){
     var score=0;
     var numOfQuestions =7;
