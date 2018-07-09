@@ -36,7 +36,8 @@ function onSubmit(){
 
          var results =document.getElementById('results');
          results.innerHTML="<h2> You Scored" + score + " points out of " + numOfQuestions + "</h2>";
-         alert(' You scored ' + score + 'out of '+ numOfQuestions);
+         alert(' You scored ' + score + ' out of '+ numOfQuestions);
+         alert('You completed in these seconds ' + d);
          return false;
 
 }
